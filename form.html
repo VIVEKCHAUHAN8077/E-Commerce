@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in</title>
+    <!-- custom  css link -->
+     <link rel="stylesheet" href="form.css">
+    <!-- custom fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <p>3legant.</p>
+            <img src="images/wallpaperflare.com_wallpaper (1).jpg" alt="">
+        </div>
+        <div class="sign-in">
+            <div class="sign-in-container">
+                <div class="title">
+                    <span>Sign up</span>
+                    <div class="sub-title"><p>Already have an account?</p><a href="#">Sign-up</a></div>
+                </div>
+
+                <div class="form">
+                    <label for="name">User Name <input id="name" type="text" placeholder="Your User Name"></label>
+                    <label for="name">Your Name <input id="name" type="text" placeholder="Your Name"></label>
+                    <label for="name">Email Address <input id="name" type="text" placeholder="Your Email"></label>
+                    <label for="name">Password <input id="password" type="password" placeholder="Your Password"> </label>
+                    <div class="checkbox"><input type="checkbox"><p>I agree with Privacy Policy and Terms of Use</p></div>
+                    <input id="button" type="submit" onclick="clickbutton(event)">
+                    <span class="error">*Error in userName is Empty</span>
+                    <p class="error1">*Error in password strength is 6</p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="form.js"></script>
+    
+</body>
+</html>
